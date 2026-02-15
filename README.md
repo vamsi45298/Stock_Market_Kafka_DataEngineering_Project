@@ -16,7 +16,8 @@ Used Python, Apache Kafka, and AWS (S3, EC2, Glue, Athena) to build a real-time 
 3. Glue Crawler
 4. Glue Catalog
 5. EC2
--Streaming Platform
+
+- Streaming Platform
 1. Apache Kafka
 
 
@@ -25,8 +26,8 @@ You can use any dataset, we are mainly interested in operation side of Data Engi
 
 Here is the dataset used in the project - https://github.com/darshilparmar/stock-market-kafka-data-engineering-project/blob/main/indexProcessed.csv
 
-Implementation Steps
-1️⃣ Infrastructure Setup
+## Implementation Steps
+1️.Infrastructure Setup
 
 Launched EC2 instance
 
@@ -34,7 +35,7 @@ Installed and configured Apache Kafka
 
 Created Kafka topic for stock data
 
-2️⃣ Real-Time Data Streaming
+2️.Real-Time Data Streaming
 
 Developed Python Kafka Producer
 
@@ -42,7 +43,7 @@ Streamed CSV data line-by-line in real-time
 
 Implemented controlled data ingestion speed
 
-3️⃣ Data Consumption & Storage
+3️.Data Consumption & Storage
 
 Built Kafka Consumer in Python
 
@@ -50,7 +51,7 @@ Converted records into structured JSON
 
 Stored streaming data into Amazon S3
 
-4️⃣ Metadata & Query Layer
+4️.Metadata & Query Layer
 
 Configured AWS Glue Crawler
 
@@ -60,7 +61,7 @@ Created tables in Glue Data Catalog
 
 Queried data using Athena (SQL)
 
-📊 Sample Analytical Queries (Athena)
+## Sample Analytical Queries (Athena)
 
 Top performing stocks by daily change
 
@@ -70,7 +71,7 @@ Volume trend analysis
 
 Aggregation & filtering using SQL
 
-🧠 Concepts Demonstrated
+## Concepts Demonstrated
 
 Real-Time Streaming Architecture
 
@@ -86,7 +87,7 @@ Serverless Querying
 
 End-to-End ETL Pipeline
 
-📌 Key Highlights
+##  Key Highlights
 
 ✔ Built scalable real-time data pipeline
 ✔ Implemented Kafka Producer & Consumer
@@ -95,7 +96,7 @@ End-to-End ETL Pipeline
 ✔ Performed analytics using Athena
 ✔ Demonstrated cloud-native data engineering practices
 
-🎯 Business Use Case
+## Business Use Case
 
 This architecture can be extended for:
 
